@@ -8,7 +8,7 @@ package sharing1_without_factory;
  * @author Frieda
  *
  */
-public class CalculatorWioutFactory {
+public class CalculatorWithoutFactory {
 	private static int result;
 
 	/**
