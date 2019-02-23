@@ -9,3 +9,4 @@
  * 應該在run的時候動態組合
  * 裝飾者類可以是抽象 or 介面
 
+ ![image](https://github.com/frieda0503/design-pattern/blob/develop/design-pattern/src/main/java/decorator_implement/decorator.png)
