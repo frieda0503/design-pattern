@@ -1,9 +1,9 @@
-import sharing1_without_factory.CalculatorWithoutFactory;
-import sharing2_simple_factory.Calculator;
-import sharing2_simple_factory.CalculatorSimpleFactory;
-import sharing3_factory.CalculatorAddFactory;
-import sharing4_abstract_factory.ApplianceFactory;
-import sharing4_abstract_factory.ClothesFactory;
+import sharing2_without_factory.CalculatorWithoutFactory;
+import sharing3_simple_factory.Calculator;
+import sharing3_simple_factory.CalculatorSimpleFactory;
+import sharing4_factory.CalculatorAddFactory;
+import sharing5_abstract_factory.ApplianceFactory;
+import sharing5_abstract_factory.ClothesFactory;
 
 /**
  * 工廠模式demo

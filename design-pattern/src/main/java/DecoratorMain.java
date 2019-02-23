@@ -1,8 +1,9 @@
-import sharing5_decorator.Egg;
-import sharing5_decorator.Noodle;
-import sharing5_decorator.PorkChop;
-import sharing5_decorator.Udon;
-import sharing5_decorator.Vegetable;
+import sharing1_decorator.Egg;
+import sharing1_decorator.Noodle;
+import sharing1_decorator.PorkChop;
+import sharing1_decorator.PorkChopSpareRibUdon;
+import sharing1_decorator.SpareRibUdon;
+import sharing1_decorator.Vegetable;
 
 /**
  * 打扮(裝飾模式)
@@ -21,7 +22,7 @@ public class DecoratorMain {
 	 */
 	public static void basicNoodle() {
 		System.out.println(">>>> Noodle without decorator 測試 <<<< ");
-		Noodle noodle = new Udon();
+		Noodle noodle = new PorkChopSpareRibUdon();
 
 		System.out.println(noodle.getDescription() + " cost:"
 				+ noodle.getCost() + ",price:" + noodle.getPrice());
@@ -34,7 +35,7 @@ public class DecoratorMain {
 	 */
 	public static void mixNoodle() {
 		System.out.println(">>>> Noodle with decorator 測試 <<<< ");
-		Noodle noodle = new Udon();
+		Noodle noodle = new SpareRibUdon();
 		noodle = new PorkChop(noodle);
 		noodle = new Vegetable(noodle);
 		noodle = new Egg(noodle);
