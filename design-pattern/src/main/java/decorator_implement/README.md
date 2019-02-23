@@ -4,5 +4,3 @@
  * 裝飾者類：CondimentDecorator
  * 配料類：Milk, Soy, Chocolate
  
- ![image](https://github.com/frieda0503/design-pattern/blob/develop/design-pattern/src/main/java/decorator_implement/decorator.png)
-
