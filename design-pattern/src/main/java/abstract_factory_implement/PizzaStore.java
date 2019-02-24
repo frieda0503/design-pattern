@@ -23,7 +23,7 @@ public abstract class PizzaStore {
 		return pizza;
 	}
 	
-	// 讓各store有自己製做pizza的方式
+	// 讓各store有自己製作pizza的方式
 	abstract Pizza createPizza(String type);
 
 }
