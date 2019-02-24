@@ -11,7 +11,7 @@ import sharing5_abstract_factory.ClothesFactory;
  * @author Frieda
  *
  */
-public class CalculatorMain {
+public class FactoryMain {
 	// 輸入值
 	static int a = 10000;
 	static int b = 25000;
@@ -48,7 +48,7 @@ public class CalculatorMain {
 	 */
 	public static void calculatorSimpleFactory() {
 		System.out.println(">>>> Calculator Simple Factory 測試 <<<< ");
-
+		
 		try {
 			System.out.println("輸入: " + a + operator + b);
 			Calculator calculator = CalculatorSimpleFactory.getCalculator(operator);

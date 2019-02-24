@@ -5,7 +5,7 @@ package sharing3_simple_factory;
  * 使用Calculator Factory來產生對應的計算類別<br>
  * 優點是容易擴充與維護，因為毎個計算類別都是獨立的<br>
  * 缺點是程式碼被拆的很散，有新增時要回來修改程式碼
- * 
+ * new ->實體化一個class，缺乏彈性
  * @author Frieda
  *
  */

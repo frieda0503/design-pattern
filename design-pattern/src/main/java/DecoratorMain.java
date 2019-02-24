@@ -6,7 +6,7 @@ import sharing1_decorator.SpareRibUdon;
 import sharing1_decorator.Vegetable;
 
 /**
- * 打扮(裝飾模式)
+ * 麵店(裝飾模式)
  * 
  * @author Frieda
  *
