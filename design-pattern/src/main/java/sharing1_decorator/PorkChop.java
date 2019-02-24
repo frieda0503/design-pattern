@@ -8,6 +8,7 @@ package sharing1_decorator;
  *
  */
 public class PorkChop extends IngredientDecorator {
+	Noodle noodle;
 
 	public PorkChop(Noodle noodle) {
 		super(noodle);

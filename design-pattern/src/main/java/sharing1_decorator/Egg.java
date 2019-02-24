@@ -10,6 +10,7 @@ package sharing1_decorator;
 public class Egg extends IngredientDecorator {
 
 	public Egg(Noodle noodle) {
+		// 父類別的建構子
 		super(noodle);
 		description = "Egg ";
 		cost = 2;
