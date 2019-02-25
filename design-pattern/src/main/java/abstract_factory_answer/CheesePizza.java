@@ -13,6 +13,7 @@ public class CheesePizza extends Pizza {
 		this.ingredientFactory = ingredientFactory;
 	}
 
+	// 將多樣產品包在方法內
 	@Override
 	void prepare() {
 		name = "Cheese Pizza";
